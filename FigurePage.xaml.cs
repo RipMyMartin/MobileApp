@@ -2,8 +2,8 @@ namespace MobileApp;
 
 public partial class FigurePage : ContentPage
 {
-	public FigurePage()
+	public FigurePage(int k)
 	{
-		InitializeComponent();
+
 	}
 }

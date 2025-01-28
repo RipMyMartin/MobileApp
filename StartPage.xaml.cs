@@ -2,7 +2,7 @@ namespace MobileApp;
 
 public partial class StartPage : ContentPage
 {
-	public List<ContentPage> lehed = new List<ContentPage>() { new TextPage(), new FigurePage() };
+	public List<ContentPage> lehed = new List<ContentPage>() { new TextPage(0), new FigurePage(1) };
 	public List<string> Tekstid = new List<string> { "Tee lahti TekstPage", "Tee lahti FigurePage" };
 	ScrollView sv;
 	VerticalStackLayout vst;
@@ -19,7 +19,7 @@ public partial class StartPage : ContentPage
 				Text = Tekstid[i],
 				BackgroundColor = Color.FromRgb(20,100,200),
 				TextColor = Color.FromRgb(10,20,15),
-				FontFamily = "Socafe 400",
+				FontFamily = "Tomorrow-Bold",
 				BorderWidth = 10,
 				ZIndex = i
 			};
